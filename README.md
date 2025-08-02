@@ -157,7 +157,7 @@ GET /api/v1/transaction/my-history
 PATCH  /api/v1/wallet/cash-in
 
 {
-    "toUserId": "688ba729ca17a22198dd5228", // User's ID
+    "toUserId": "688ba729ca17a22198dd5228", 	# User's ID
     "amount": 500,
     "reference": "cash in to user"
 }
@@ -169,7 +169,7 @@ PATCH  /api/v1/wallet/cash-in
 PATCH  /api/v1/wallet/cash-out
 
 {
-    "toUserId": "688ba729ca17a22198dd5228", // Agent's ID
+    "toUserId": "688ba729ca17a22198dd5228", 	# Agent's ID
     "amount": 50
 }
 ```
@@ -204,7 +204,7 @@ GET  /api/v1/admin/transactions
 PATCH  /api/v1/admin/wallets/688ba729ca17a22198dd522b/status
 
 {
-    "status": true		// unblock => true, block => false
+    "status": true		# unblock => true, block => false
 }
 
 ```
@@ -215,7 +215,7 @@ PATCH  /api/v1/admin/wallets/688ba729ca17a22198dd522b/status
 PATCH /api/v1/admin/agents/688ba729ca17a22198dd522b/status
 
 {
-    "status": false		// approve => true, suspend => false
+    "status": false		# approve => true, suspend => false
 }
 ```
 
